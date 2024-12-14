@@ -1,0 +1,102 @@
+/* Establece la fuente principal para todo el cuerpo de la página */
+body {
+    font-family: 'Protest Riot'; /* Fuente personalizada para el texto */
+    background-color: rgb(34, 49, 40); /* Fondo verde oscuro para un estilo más elegante */
+}
+
+/* Estilos para el elemento con la clase .title (normalmente usado en títulos) */
+.title {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); /* Sombra de texto blanca para mejorar contraste */
+    color: rgba(255, 255, 255, 0.9); /* Color de texto blanco para mayor legibilidad */
+}
+
+/* Estilo para el elemento con id #image */
+#image {
+    width: 600px; /* Define el ancho de la imagen */
+    margin-top: 30px; /* Espacio superior de 30px */
+}
+
+/* Estilos para el formulario con id #form */
+#form {
+    display: flex; /* Utiliza un diseño flexible para los elementos dentro del formulario */
+    flex-direction: column; /* Los elementos dentro del formulario se apilarán en una columna */
+    padding-top: 5px; /* Espacio superior de 5px */
+    justify-content: center; /* Centra los elementos dentro del formulario en el eje vertical */
+}
+
+/* Estilos para el control (probablemente un div o contenedor de formulario) */
+#control {
+    border: 2px solid #4CAF50; /* Borde verde brillante (más suave que el morado) */
+    background-color: rgb(61, 104, 67); /* Fondo verde medio para no ser tan oscuro */
+    color: white; /* Texto blanco para contraste y mejor legibilidad */
+    text-align: center; /* Centra el texto dentro del control */
+    padding: 10px; /* Agrega un poco de espacio interno */
+}
+
+/* Estilos para el elemento con id #etiqueta */
+#etiqueta {
+    font-size: 28px; /* Tamaño de fuente grande */
+    color: rgb(181, 255, 122); /* Color amarillo verdoso claro para contraste suave */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto en negro para profundidad */
+}
+
+/* Estilos para el campo de búsqueda con id #busqueda */
+#busqueda {
+    width: 400px; /* Define el ancho del campo de búsqueda */
+    margin-top: 10px; /* Espacio superior de 10px */
+    align-items: center; /* Alinea los elementos en el centro dentro del contenedor */
+    padding-left: 10px; /* Agrega un espacio de 10px a la izquierda del texto dentro del campo de búsqueda */
+    border: 2px solid #4CAF50; /* Borde verde claro para que combine con el control */
+    background-color: rgb(49, 71, 51); /* Fondo más oscuro para el campo de búsqueda */
+    color: white; /* Texto blanco para contrastar con el fondo oscuro */
+}
+
+/* Estilos para los botones */
+button {
+    margin-top: 8px; /* Espacio superior de 8px */
+    width: 100px; /* Define el ancho del botón */
+    border-radius: 20%; /* Bordes redondeados con un radio del 20% */
+    margin-top: 20px; /* Agrega un espacio superior de 20px (esto podría ser redundante, como antes) */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6); /* Sombra blanca para mejorar visibilidad */
+    background-color: rgb(56, 94, 62); /* Fondo verde oscuro similar al del body */
+    color: white; /* Texto blanco en el botón */
+    border: none; /* Elimina el borde por defecto */
+    padding: 10px; /* Añade espacio dentro del botón */
+    cursor: pointer; /* Cambia el cursor a mano al pasar sobre el botón */
+}
+
+/* Efecto hover para el botón (cambio de color al pasar el mouse) */
+button:hover {
+    background-color: rgb(75, 125, 80); /* Fondo verde más brillante al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+
+
+/* actualizado */
+/* Estilo básico para los héroes */
+.hero-name {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el poder */
+.hero-power {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Estilo para el alias */
+.hero-alias {
+    font-size: 20px;
+}
+
+/* Estilo para el contenedor de resultados */
+#resultado {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}

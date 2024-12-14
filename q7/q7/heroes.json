@@ -1,0 +1,43 @@
+{
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Superman",
+            "alias": "Clark Kent",
+            "power": "Super fuerza",
+            "image": "superman.jpg",
+            "styles": {
+                "nameColor": "#FFD700",
+                "powerColor": "#1E90FF",
+                "aliasColor": "#32CD32",
+                "backgroundColor": "#282828"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Batman",
+            "alias": "Bruce Wayne",
+            "power": "Inteligencia y tecnología",
+            "image": "batman.jpg",
+            "styles": {
+                "nameColor": "#000000",
+                "powerColor": "#FF6347",
+                "aliasColor": "#708090",
+                "backgroundColor": "#282828"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Wonder Woman",
+            "alias": "Diana Prince",
+            "power": "Fuerza y combate",
+            "image": "wonder_woman.jpg",
+            "styles": {
+                "nameColor": "#FFD700",
+                "powerColor": "#FF1493",
+                "aliasColor": "#DC143C",
+                "backgroundColor": "#282828"
+            }
+        }
+    ]
+}
